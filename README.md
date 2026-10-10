@@ -43,15 +43,16 @@ antes de las 3:00 p. m.**: no se presenta nada que no esté en GitHub.
 
 | Carpeta | Contenido |
 |---|---|
+| [`spec-laravel/`](spec-laravel/) | La especificación adaptada al reto: Backend PHP (Laravel) y Frontend React |
 | [`spec-python/`](spec-python/) | El spec de Manager Library escrito para un backend Python |
 | [`spec-.net/`](spec-.net/) | El mismo sistema especificado para un backend .NET |
 
-Las dos versiones describen el **mismo producto** (las mismas historias, reglas de negocio y
-endpoints); cambian las decisiones de tecnología. Ninguna de las dos es el stack del reto.
+Las versiones describen el **mismo producto** (las mismas historias, reglas de negocio y
+endpoints); cambian las decisiones de tecnología.
 
 ## Cómo se lee el spec
 
-En cualquiera de las dos carpetas, en este orden:
+En cualquiera de las carpetas (prioritariamente `spec-laravel/` para el reto), en este orden:
 
 1. `constitution.md` — principios innegociables.
 2. `spec.md` — qué debe hacer el sistema: actores, historias, criterios de aceptación, reglas de negocio.
